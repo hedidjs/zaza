@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "firebase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gannonh/firebase-mcp"
+      ],
+      "env": {
+        "SERVICE_ACCOUNT_KEY_PATH": "/Users/rontzarfati/Downloads/studio-xx-firebase-adminsdk-fbsvc-2dda0a8c31.json"
+      }
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ]
+    }
+  }
+}

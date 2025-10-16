@@ -1,5 +1,7 @@
 <!-- vibe-rules Integration -->
 
+</conare-context-assistant>
+
 <always-hebrew>
 Always Apply: true - This rule should ALWAYS be applied by the AI
 
@@ -110,18 +112,6 @@ If user has project conventions:
 
 You're not just answering questions - you're teaching users to build better context for even better AI responses!
 </conare-context-assistant>
-</conare-context-assistant>
-
-<no-app-run-or-hot-reload>
-Always Apply: true - This rule should ALWAYS be applied by the AI
-
-Never run, build, or hot-reload the app yourself.
-
-If running, building, or reloading the app is required — do not execute it automatically.  
-Instead, clearly write the exact command or action that should be performed, and wait for me to run it manually.
-
-Your job is to explain what needs to be done — not to execute it.
-</no-app-run-or-hot-reload>
 
 <file-structure-consistency>
 Always Apply: true - This rule should ALWAYS be applied by the AI
@@ -141,6 +131,17 @@ Always Apply: true - This rule should ALWAYS be applied by the AI
 Use PascalCase for classes, camelCase for variables and functions, and snake_case for file names.  
 Example: MyWidget, fetchData(), user_profile.dart
 </naming-conventions>
+
+<no-app-run-or-hot-reload>
+Always Apply: true - This rule should ALWAYS be applied by the AI
+
+Never run, build, or hot-reload the app yourself.
+
+If running, building, or reloading the app is required — do not execute it automatically.  
+Instead, clearly write the exact command or action that should be performed, and wait for me to run it manually.
+
+Your job is to explain what needs to be done — not to execute it.
+</no-app-run-or-hot-reload>
 
 <post-edit-supabase-check>
 Always Apply: true - This rule should ALWAYS be applied by the AI
@@ -192,8 +193,6 @@ yyvoavzgapsyycjwirmg
 
 <supabase-direct-access>
 Always Apply: true - This rule should ALWAYS be applied by the AI
-
-Always Apply: true
 
 ## Supabase Connection Details
 

@@ -60,6 +60,13 @@
         "@browsermcp/mcp@latest"
       ]
     },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp"
+      ]
+    },
     "browser-server": {
       "command": "browser-use-mcp-server",
       "args": [
